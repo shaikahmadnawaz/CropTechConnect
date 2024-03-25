@@ -36,12 +36,7 @@ const Footer = () => {
                 Home
               </li>
               {/* <li className='text-lg text-white font-medium cursor-pointer'>Menu</li> */}
-              <li
-                className="text-lg text-white font-medium cursor-pointer"
-                onClick={() => navigate("/sms")}
-              >
-                SMS Service
-              </li>
+              
             </ul>
             <ul>
               <li
@@ -56,17 +51,12 @@ const Footer = () => {
               >
                 Crop Prediction
               </li>
+             
               <li
                 className="text-lg text-white font-medium cursor-pointer"
-                onClick={() => navigate("/voice")}
+                onClick={() => navigate("/faqs")}
               >
-                Weather Prediction
-              </li>
-              <li
-                className="text-lg text-white font-medium cursor-pointer"
-                onClick={() => navigate("/disease")}
-              >
-                Disease Prediction
+              FAQs
               </li>
             </ul>
           </div>

@@ -64,7 +64,7 @@ const Crop = () => {
               Predict the best crop to plant
               <br />
             </p>
-            <div className="flex flex-row space-x-3 my-10">
+            {/* <div className="flex flex-row space-x-3 my-10">
               <div>Please select a Language, default language is English</div>
               <div className="ml-16 ">
                 <button
@@ -93,7 +93,7 @@ const Crop = () => {
                   Spanish
                 </button>
               </div>
-            </div>
+            </div> */}
             <input
               onChange={(e) => {
                 setNitrogen(e.target.value);

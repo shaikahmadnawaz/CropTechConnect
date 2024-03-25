@@ -77,7 +77,7 @@ const Fertilizer = () => {
               <br />
             </p>
 
-            <div className="flex flex-row space-x-3 my-10">
+            {/* <div className="flex flex-row space-x-3 my-10">
               <div>Please select a Language, default language is English</div>
               <div className="ml-16 ">
                 <button
@@ -112,7 +112,7 @@ const Fertilizer = () => {
                   Spanish
                 </button>
               </div>
-            </div>
+            </div> */}
             <div className="flex flex-row my-2 w-3/5">
               <div>Select a Soil Type</div>
               <div className="ml-16 ">

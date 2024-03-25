@@ -7,8 +7,8 @@ const Header = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="h-10 inPhone my-2">
-      <div className="flex content-center">
+    <div className="inPhone my-6">
+      <div className="flex content-center items-center">
         <div className="flex items-center cursor-pointer ml-auto lg:ml-16">
           {/* <img
             onClick={() => navigate("/")}
@@ -27,12 +27,7 @@ const Header = () => {
             >
               Home
             </li>
-            <li
-              className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
-              onClick={() => navigate("/voice")}
-            >
-              Voice Help
-            </li>
+            
             <li
               className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
               onClick={() => navigate("/crop")}
@@ -45,17 +40,12 @@ const Header = () => {
             >
               Fertilizer Recommendation
             </li>
+           
             <li
-              onClick={() => navigate("/disease")}
+              onClick={() => navigate("/faqs")}
               className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
             >
-              Disease Prediction
-            </li>
-            <li
-              onClick={() => navigate("/sms")}
-              className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
-            >
-              SMS Service
+              FAQs
             </li>
           </ul>
         </div>
